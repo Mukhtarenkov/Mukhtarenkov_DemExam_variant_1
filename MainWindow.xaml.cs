@@ -29,7 +29,7 @@ namespace Mukhtarenkov_DemExam_variant_1
 
         private void GoBack_Click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Navigate(GoBack);
         }
     }
 }
