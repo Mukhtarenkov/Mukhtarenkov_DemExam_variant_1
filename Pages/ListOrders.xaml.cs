@@ -12,24 +12,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Mukhtarenkov_DemExam_variant_1.Pages;
 
-namespace Mukhtarenkov_DemExam_variant_1
+
+namespace Mukhtarenkov_DemExam_variant_1.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для ListOrders.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ListOrders : Page
     {
-        public MainWindow()
+        public ListOrders()
         {
             InitializeComponent();
-            MainFrame.NavigationService.Navigate(new Authorization());
-        }
-
-        private void GoBack_Click(object sender, RoutedEventArgs e)
-        {
-
+           // listOrdersDataGrid.ItemsSource = AutoServiceDBEntities.GetContext.order.ToList();
         }
     }
 }

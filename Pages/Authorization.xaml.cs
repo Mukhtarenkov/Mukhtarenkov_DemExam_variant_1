@@ -12,24 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Mukhtarenkov_DemExam_variant_1.Pages;
 
-namespace Mukhtarenkov_DemExam_variant_1
+namespace Mukhtarenkov_DemExam_variant_1.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Authorization.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Authorization : Page
     {
-        public MainWindow()
+        public Authorization()
         {
             InitializeComponent();
-            MainFrame.NavigationService.Navigate(new Authorization());
-        }
-
-        private void GoBack_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
